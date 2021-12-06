@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 dic. 2021, 20:30:26
+    Author     : jose
+*/
+
+/* Aquellas celdas que esten vacias se les da color blanco de fondo */
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+/* Aquellas celdas vacias se le quita el borde */
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}

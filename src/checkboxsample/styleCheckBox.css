@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 dic. 2021, 20:25:15
+    Author     : jose
+*/
+
+/* Tipo de marca, una X */
+.check-box .mark {
+    -fx-shape: "M2,0L5,4L8,0L10,0L10,2L6,5L10,8L10,10L8,10L5,6L2,10L0,10L0,8L4,5L0,2L0,0Z";
+}
+
+/* Color de la marca, obviamente, cuando está marcada */
+.check-box:selected .mark {
+    -fx-background-color: #0181e2;
+}
